@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: S59R/QABwmhffDvDLAAkhOTnepYnN/H+W3FTv/UJux+5z4Xak2ITTQeHrJrAkyE+cAvSNaz2TpeFCaGLXvpGup/Q5s3gem4g5ewdbaqlPCoj4K8OkFVLjXYFYYXGLpcccdN7UbJ0QhnxNbZ9s+YmPfR7MABKfUVA5NWARqfffA6CGmxHl0C/hOOo8RAiewxncN+IzGwcvu9YoXnkkM4KsiM+lSdJ3e8pKhmxQDfKW9BfjvZbiXQ+5DyIk7i+xklBF5Vg8yLEfalu1NMy0hK0HTztF5wGy1hOvu0nHCLHrGma/+LuXXnmw9Qglorz0QG9f40eXjDTeDnxsufJIDQgMu1MDD20TJmQ+SCh3JEM9Jffr9fVcjhkoJfxhiUgBLNGLia3G4zf+NOrJ0+32w9JkojNY4LyIyIDRy2me1zTnATOz0qUVonAr0NW/mAVF+DVMRfPyT4OakEPElEKK+juxdHoQQsd13qYJ37uzzyl9VcEJatOMeKAQS118dDDs7KpWPvKQTqKPxP/OmY+7+GDNimJ8CuZdRBDlj1H+lotr9r+4iG0K1HtAx+RKIK/fCsr6unjHNTIfnMDVlhvltM+Kz8pvQ6irO2ty/cY7p9RUm3t1j6f52efxnjOZaPToLhOY63MTOdxyqsF7Y04VEPEzl2+t6yUgYmmpJ8/anGlGiQ=
+  app: pacific-sea-53410
+  on:
+    repo: SirRobZ/node-shopping-list-integration-tests
